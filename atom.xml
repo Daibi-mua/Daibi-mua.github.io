@@ -3,14 +3,14 @@
   <title>呆逼の博客</title>
   
   <subtitle>此后如竟没有炬火，我便是唯一的光</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://example.com/he/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://example.com/he/"/>
   <updated>2020-12-06T02:49:30.982Z</updated>
-  <id>http://example.com/</id>
+  <id>http://example.com/he/</id>
   
   <author>
-    <name>Daibi</name>
+    <name>Daibi_mua</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2020/12/06/hello-world/"/>
-    <id>http://example.com/2020/12/06/hello-world/</id>
+    <link href="http://example.com/he/2020/12/06/hello-world/"/>
+    <id>http://example.com/he/2020/12/06/hello-world/</id>
     <published>2020-12-06T01:35:57.359Z</published>
     <updated>2020-12-06T02:49:30.982Z</updated>
     
