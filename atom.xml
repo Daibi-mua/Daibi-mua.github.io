@@ -3,11 +3,11 @@
   <title>呆逼の博客</title>
   
   <subtitle>此后如竟没有炬火，我便是唯一的光</subtitle>
-  <link href="http://example.com/he/atom.xml" rel="self"/>
+  <link href="https://85no1.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/he/"/>
-  <updated>2020-12-06T08:27:50.699Z</updated>
-  <id>http://example.com/he/</id>
+  <link href="https://85no1.top/"/>
+  <updated>2020-12-20T06:36:29.183Z</updated>
+  <id>https://85no1.top/</id>
   
   <author>
     <name>Daibi_mua</name>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>post</title>
+    <link href="https://85no1.top/2020/12/20/post/"/>
+    <id>https://85no1.top/2020/12/20/post/</id>
+    <published>2020-12-20T06:34:18.000Z</published>
+    <updated>2020-12-20T06:36:29.183Z</updated>
+    
+    <content type="html"><![CDATA[<p>asfas;gfjasp’h aishfopiawhsegopawpg</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;asfas;gfjasp’h aishfopiawhsegopawpg&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://example.com/he/2020/12/06/hello-world/"/>
-    <id>http://example.com/he/2020/12/06/hello-world/</id>
+    <link href="https://85no1.top/2020/12/06/hello-world/"/>
+    <id>https://85no1.top/2020/12/06/hello-world/</id>
     <published>2020-12-06T01:35:57.359Z</published>
     <updated>2020-12-06T08:27:50.699Z</updated>
     
