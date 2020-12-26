@@ -6,7 +6,7 @@
   <link href="https://85no1.top/atom.xml" rel="self"/>
   
   <link href="https://85no1.top/"/>
-  <updated>2020-12-26T01:54:21.462Z</updated>
+  <updated>2020-12-26T02:17:23.220Z</updated>
   <id>https://85no1.top/</id>
   
   <author>
@@ -21,21 +21,20 @@
     <link href="https://85no1.top/article.html"/>
     <id>https://85no1.top/article.html</id>
     <published>2020-12-26T01:17:30.000Z</published>
-    <updated>2020-12-26T01:54:21.462Z</updated>
+    <updated>2020-12-26T02:17:23.220Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><ul><li><ul><li>前几天闲来无事 突然想找一个自己喜欢的随机图片api 但翻了半天也没找到自己喜欢的，索性干脆自己做一个</li></ul></li><li><ul><li>参考了网上一些文章，同时结合自己实际情况，也加上了一些解释。</li></ul></li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><ul><li>前几天闲来无事 突然想找一个自己喜欢的随机图片api 但翻了半天也没找到自己喜欢的，索性干脆自己做一个</li><li>参考了网上一些文章，同时结合自己实际情况，也加上了一些解释。</li></ul></blockquote><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a><strong>准备</strong></h2><ul><li>一台服务器</li><li>已经搭建好的php环境</li></ul><h3 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h3><p>随机图片API，主要原理其实很简单，就三步：<br>1.用一个文本文档存放图片的链接<br>2.当用户请求API时，php就去读取txt文件，然后生成随机数来随机选取一个图片链接<br>3.302重定向到目标图片地址</p><hr><p>​     </p><hr><h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><p>下面给出最简单的实现方式，详细说明见注释</p><ol><li>创建文件randImg.txt用于存放图片地址，如</li></ol><figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/9.jpg</span></span><br><span class="line"><span class="attribute">https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/8.jpg</span></span><br><span class="line"><span class="attribute">https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/3.png</span></span><br><span class="line"><span class="attribute">https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/7.jpg</span></span><br><span class="line"><span class="attribute">https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/5.jpg</span></span><br></pre></td></tr></table></figure><ol start="2"><li>创建randImg.php</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 1.读取randImg.txt中的内容，并以换行符分开</span><br><span class="line">$str &#x3D; explode(&quot;\n&quot;, file_get_contents(&#39;randImg.txt&#39;));</span><br><span class="line">&#x2F;&#x2F; 2.得到的$str是一个String的数组，然后获取随机数index</span><br><span class="line">$rand_index &#x3D; rand(0,count($str)-1);</span><br><span class="line">&#x2F;&#x2F; 根据生成的随机数选取index为$rand_index的图片链接</span><br><span class="line">$url &#x3D; $str[$rand_index];</span><br><span class="line">&#x2F;&#x2F; 替换掉转义</span><br><span class="line">$url &#x3D; str_re($url);</span><br><span class="line">&#x2F;&#x2F; 3.重定向到目标url,返回302码,然后浏览器就会跳转到图片url的地址</span><br><span class="line">header(&quot;Location:&quot;.$url);</span><br><span class="line">&#x2F;&#x2F; 替换掉一些换行、制表符等转义</span><br><span class="line">function str_re($str)&#123;</span><br><span class="line">    $str &#x3D; str_replace(&#39; &#39;, &quot;&quot;, $str);</span><br><span class="line">    $str &#x3D; str_replace(&quot;\n&quot;, &quot;&quot;, $str);</span><br><span class="line">    $str &#x3D; str_replace(&quot;\t&quot;, &quot;&quot;, $str);</span><br><span class="line">    $str &#x3D; str_replace(&quot;\r&quot;, &quot;&quot;, $str);</span><br><span class="line">    return $str;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><ol start="3"><li><p><strong>将randImg.txt和randImg.php放在同一个网站目录下</strong></p></li><li><h5 id="访问-域名-randImg-php即可"><a href="#访问-域名-randImg-php即可" class="headerlink" title="访问 域名/randImg.php即可"></a>访问 域名/randImg.php即可</h5></li></ol><p>图床推荐：我目前就是用微博图床和GitHub+jsdelivr</p><p>微博因为有防盗链 这边建议使用微博图床<a href="https://chrome.google.com/webstore/detail/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A/fdfdnfpdplfbbnemmmoklbfjbhecpnhf/related">插件</a></p>]]></content>
     
     
       
       
     <summary type="html">&lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;ul&gt;
 &lt;li&gt;前几天闲来无事 突然想找一个自己喜欢的随机图片api 但翻了半天也没找到自己喜欢的，索性干脆自己做一个&lt;/li&gt;
+&lt;li&gt;参考了网上一些文章，同时结合自己实际情况，也加上了一些解释。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;ul&gt;
-&lt;li&gt;参考了网上一些文章，同时结合自己实际情况，也加上了一些</summary>
+&lt;/blockquote&gt;
+&lt;</summary>
       
     
     
