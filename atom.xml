@@ -3,11 +3,11 @@
   <title>呆逼の博客</title>
   
   <subtitle>此后如竟没有炬火，我便是唯一的光</subtitle>
-  <link href="https://85no1.top/atom.xml" rel="self"/>
+  <link href="http://keepdai.cn/atom.xml" rel="self"/>
   
-  <link href="https://85no1.top/"/>
+  <link href="http://keepdai.cn/"/>
   <updated>2021-01-03T05:04:37.351Z</updated>
-  <id>https://85no1.top/</id>
+  <id>http://keepdai.cn/</id>
   
   <author>
     <name>Daibi_mua</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>游览器优化及美化</title>
-    <link href="https://85no1.top/wep.html"/>
-    <id>https://85no1.top/wep.html</id>
+    <link href="http://keepdai.cn/wep.html"/>
+    <id>http://keepdai.cn/wep.html</id>
     <published>2021-01-02T04:50:19.000Z</published>
     <updated>2021-01-03T05:04:37.351Z</updated>
     
@@ -36,18 +36,18 @@
     
     
     
-    <category term="工具" scheme="https://85no1.top/tags/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="http://keepdai.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="游览器" scheme="https://85no1.top/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/"/>
+    <category term="游览器" scheme="http://keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/"/>
     
-    <category term="插件" scheme="https://85no1.top/tags/%E6%8F%92%E4%BB%B6/"/>
+    <category term="插件" scheme="http://keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>PHP建随机图片API</title>
-    <link href="https://85no1.top/article.html"/>
-    <id>https://85no1.top/article.html</id>
+    <link href="http://keepdai.cn/article.html"/>
+    <id>http://keepdai.cn/article.html</id>
     <published>2020-12-26T01:17:30.000Z</published>
     <updated>2021-01-01T01:05:52.763Z</updated>
     
@@ -68,9 +68,9 @@
     
     
     
-    <category term="Markdown" scheme="https://85no1.top/tags/Markdown/"/>
+    <category term="Markdown" scheme="http://keepdai.cn/tags/Markdown/"/>
     
-    <category term="PHP" scheme="https://85no1.top/tags/PHP/"/>
+    <category term="PHP" scheme="http://keepdai.cn/tags/PHP/"/>
     
   </entry>
   
