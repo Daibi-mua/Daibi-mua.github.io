@@ -32,20 +32,6 @@
 
   
   <url>
-    <loc>http://keepdai.cn/tags/Markdown/</loc>
-    <lastmod>2021-01-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://keepdai.cn/tags/PHP/</loc>
-    <lastmod>2021-01-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://keepdai.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-01-04</lastmod>
     <changefreq>daily</changefreq>
@@ -61,6 +47,20 @@
   
   <url>
     <loc>http://keepdai.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2021-01-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://keepdai.cn/tags/Markdown/</loc>
+    <lastmod>2021-01-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://keepdai.cn/tags/PHP/</loc>
     <lastmod>2021-01-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
