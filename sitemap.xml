@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://keepdai.cn/link/index.html</loc>
+    <loc>http://keepdai.cn/wep.html</loc>
     
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     
   </url>
   
   <url>
-    <loc>http://keepdai.cn/wep.html</loc>
+    <loc>http://keepdai.cn/link/index.html</loc>
     
-    <lastmod>2021-01-03</lastmod>
+    <lastmod>2021-01-04</lastmod>
     
   </url>
   
@@ -25,7 +25,7 @@
 
   <url>
     <loc>http://keepdai.cn/</loc>
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -33,35 +33,35 @@
   
   <url>
     <loc>http://keepdai.cn/tags/Markdown/</loc>
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://keepdai.cn/tags/PHP/</loc>
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://keepdai.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/</loc>
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://keepdai.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2021-01-04</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
