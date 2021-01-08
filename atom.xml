@@ -3,11 +3,11 @@
   <title>呆逼の博客</title>
   
   <subtitle>此后如竟没有炬火，我便是唯一的光</subtitle>
-  <link href="https://www.keepdai.cn/atom.xml" rel="self"/>
+  <link href="https://blog.keepdai.cn/atom.xml" rel="self"/>
   
-  <link href="https://www.keepdai.cn/"/>
+  <link href="https://blog.keepdai.cn/"/>
   <updated>2021-01-07T11:16:26.133Z</updated>
-  <id>https://www.keepdai.cn/</id>
+  <id>https://blog.keepdai.cn/</id>
   
   <author>
     <name>Daibi_mua</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>游览器优化及美化</title>
-    <link href="https://www.keepdai.cn/wep.html"/>
-    <id>https://www.keepdai.cn/wep.html</id>
+    <link href="https://blog.keepdai.cn/wep.html"/>
+    <id>https://blog.keepdai.cn/wep.html</id>
     <published>2021-01-02T04:50:19.000Z</published>
     <updated>2021-01-07T11:16:26.133Z</updated>
     
@@ -36,18 +36,18 @@
     
     
     
-    <category term="工具" scheme="https://www.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="游览器" scheme="https://www.keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/"/>
+    <category term="游览器" scheme="https://blog.keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/"/>
     
-    <category term="插件" scheme="https://www.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
+    <category term="插件" scheme="https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>PHP建随机图片API</title>
-    <link href="https://www.keepdai.cn/article.html"/>
-    <id>https://www.keepdai.cn/article.html</id>
+    <link href="https://blog.keepdai.cn/article.html"/>
+    <id>https://blog.keepdai.cn/article.html</id>
     <published>2020-12-26T01:17:30.000Z</published>
     <updated>2021-01-01T01:05:52.763Z</updated>
     
@@ -68,9 +68,9 @@
     
     
     
-    <category term="Markdown" scheme="https://www.keepdai.cn/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://blog.keepdai.cn/tags/Markdown/"/>
     
-    <category term="PHP" scheme="https://www.keepdai.cn/tags/PHP/"/>
+    <category term="PHP" scheme="https://blog.keepdai.cn/tags/PHP/"/>
     
   </entry>
   
