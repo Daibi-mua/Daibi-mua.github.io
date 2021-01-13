@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.keepdai.cn/mysql.html</loc>
+    
+    <lastmod>2021-01-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.keepdai.cn/qiling.html</loc>
     
     <lastmod>2021-01-10</lastmod>
@@ -54,6 +61,34 @@
   
   <url>
     <loc>https://blog.keepdai.cn/tags/PHP/</loc>
+    <lastmod>2021-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/Mysql/</loc>
+    <lastmod>2021-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/utf8/</loc>
+    <lastmod>2021-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/utf8mb4/</loc>
+    <lastmod>2021-01-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/bug/</loc>
     <lastmod>2021-01-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

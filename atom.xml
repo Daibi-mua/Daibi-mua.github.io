@@ -6,7 +6,7 @@
   <link href="https://blog.keepdai.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.keepdai.cn/"/>
-  <updated>2021-01-10T11:13:13.106Z</updated>
+  <updated>2021-01-13T02:08:45.264Z</updated>
   <id>https://blog.keepdai.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>将myqsl的utf8转为utf8mb4</title>
+    <link href="https://blog.keepdai.cn/mysql.html"/>
+    <id>https://blog.keepdai.cn/mysql.html</id>
+    <published>2021-01-13T01:46:40.000Z</published>
+    <updated>2021-01-13T02:08:45.264Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h1><p>今天使用typecho，发现不支持Emoji，去查了查原因，因为utf8在mysql里面不是真正的utf8，这个只能保存3个字节，而utf8mb4是后面更新的，能保存四个字节，而且官方也没有更新这个的说明。</p><h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><p>我是使用的phpmyadmin去连接Mysql,出现的问题是连接不上，解决方法就是换php版本，把php换到7.4，然后去phpmyadmin设置里面更换php版本。</p><h2 id="更改Mysql排序规则"><a href="#更改Mysql排序规则" class="headerlink" title="更改Mysql排序规则"></a>更改Mysql排序规则</h2><ul><li>进入Mysql，更改所有文件的排序规则</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/slq.png"></p><ul><li>当然你也可以进入数据库，直接运行下列语句</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">alter table typecho_comments convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br><span class="line">alter table typecho_contents convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br><span class="line">alter table typecho_fields convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br><span class="line">alter table typecho_metas convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br><span class="line">alter table typecho_options convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br><span class="line">alter table typecho_relationships convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br><span class="line">alter table typecho_users convert to character set utf8mb4 collate utf8mb4_general_ci;</span><br></pre></td></tr></table></figure><h2 id="修改数据库的配置文件"><a href="#修改数据库的配置文件" class="headerlink" title="修改数据库的配置文件"></a>修改数据库的配置文件</h2><p>网站根目录数据库配置文件<code>config.inc.php</code>，大约在60行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;** 定义数据库参数 *&#x2F;</span><br><span class="line">$db &#x3D; new Typecho_Db(&#39;Pdo_Mysql&#39;, &#39;typecho_&#39;);</span><br><span class="line">$db-&gt;addServer(array (</span><br><span class="line">  ...</span><br><span class="line">  &#39;charset&#39; &#x3D;&gt; &#39;utf8mb4&#39;,  &#x2F;&#x2F; 将原来的utf8修改为 utf8mb4</span><br><span class="line">  ...</span><br><span class="line">), Typecho_Db::READ | Typecho_Db::WRITE);</span><br><span class="line">Typecho_Db::set($db);</span><br></pre></td></tr></table></figure><p>然后重载Mysql服务就ok了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;原因&quot;&gt;&lt;a href=&quot;#原因&quot; class=&quot;headerlink&quot; title=&quot;原因&quot;&gt;&lt;/a&gt;原因&lt;/h1&gt;&lt;p&gt;今天使用typecho，发现不支持Emoji，去查了查原因，因为utf8在mysql里面不是真正的utf8，这个只能保存3个字节，而utf8</summary>
+      
+    
+    
+    
+    
+    <category term="Mysql" scheme="https://blog.keepdai.cn/tags/Mysql/"/>
+    
+    <category term="utf8" scheme="https://blog.keepdai.cn/tags/utf8/"/>
+    
+    <category term="utf8mb4" scheme="https://blog.keepdai.cn/tags/utf8mb4/"/>
+    
+    <category term="bug" scheme="https://blog.keepdai.cn/tags/bug/"/>
+    
+  </entry>
   
   <entry>
     <title>关于校园欺凌我的一些看法与建议</title>
