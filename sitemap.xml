@@ -81,27 +81,6 @@
   </url>
   
   <url>
-    <loc>https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2021-01-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/</loc>
-    <lastmod>2021-01-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2021-01-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.keepdai.cn/tags/Mysql/</loc>
     <lastmod>2021-01-15</lastmod>
     <changefreq>daily</changefreq>
@@ -138,6 +117,27 @@
   
   <url>
     <loc>https://blog.keepdai.cn/tags/%E6%A0%A1%E5%9B%AD%E6%AC%BA%E5%87%8C/</loc>
+    <lastmod>2021-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2021-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/</loc>
+    <lastmod>2021-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2021-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
