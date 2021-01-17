@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.keepdai.cn/wep.html</loc>
+    
+    <lastmod>2021-01-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.keepdai.cn/link/index.html</loc>
     
     <lastmod>2021-01-17</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.keepdai.cn/about/index.html</loc>
     
     <lastmod>2021-01-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/wep.html</loc>
-    
-    <lastmod>2021-01-15</lastmod>
     
   </url>
   
@@ -109,6 +109,34 @@
   </url>
   
   <url>
+    <loc>https://blog.keepdai.cn/tags/%E5%BC%80%E5%BF%83/</loc>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E7%AC%91%E8%AF%9D/</loc>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E5%87%B9%E7%89%B9%E6%9B%BC/</loc>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E8%84%91%E6%B4%9E/</loc>
+    <lastmod>2021-01-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
@@ -138,34 +166,6 @@
   
   <url>
     <loc>https://blog.keepdai.cn/tags/%E6%A0%A1%E5%9B%AD%E6%AC%BA%E5%87%8C/</loc>
-    <lastmod>2021-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E5%BC%80%E5%BF%83/</loc>
-    <lastmod>2021-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E7%AC%91%E8%AF%9D/</loc>
-    <lastmod>2021-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E5%87%B9%E7%89%B9%E6%9B%BC/</loc>
-    <lastmod>2021-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E8%84%91%E6%B4%9E/</loc>
     <lastmod>2021-01-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
