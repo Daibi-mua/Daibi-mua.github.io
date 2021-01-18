@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-
-  
-  <title>记一次接入Twikoo评论系统所遇到的问题 | 呆逼の博客</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在Butterfly3.3版本下支持了Twikoo评论。本博客在未来均会采用这个评论。它支持邮件提醒、微信提醒等。可以说是目前最好的评论系统，并且免费。 官方文档：点我前往 浏览器支持 市面主流游览器均支持,除了ie  云函数部署一键部署 点击以下链接将Twikoo一键部署到云开发  部署到云开发   进入环境-登录授权 (opens new window)，启用“匿名登录”   进入环境-安全配">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>记一次接入Twikoo评论系统所遇到的问题 | 呆逼の博客</title><meta name="keywords" content="评论,Twikoo,博客"><meta name="author" content="Daibi_mua"><meta name="copyright" content="Daibi_mua"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="在Butterfly3.3版本下支持了Twikoo评论。本博客在未来均会采用这个评论。它支持邮件提醒、微信提醒等。可以说是目前最好的评论系统，并且免费。 官方文档：点我前往 浏览器支持 市面主流游览器均支持,除了ie  云函数部署一键部署 点击以下链接将Twikoo一键部署到云开发  部署到云开发   进入环境-登录授权 (opens new window)，启用“匿名登录”   进入环境-安全配">
 <meta property="og:type" content="article">
 <meta property="og:title" content="记一次接入Twikoo评论系统所遇到的问题">
 <meta property="og:url" content="https://blog.keepdai.cn/Twikoo.html">
 <meta property="og:site_name" content="呆逼の博客">
 <meta property="og:description" content="在Butterfly3.3版本下支持了Twikoo评论。本博客在未来均会采用这个评论。它支持邮件提醒、微信提醒等。可以说是目前最好的评论系统，并且免费。 官方文档：点我前往 浏览器支持 市面主流游览器均支持,除了ie  云函数部署一键部署 点击以下链接将Twikoo一键部署到云开发  部署到云开发   进入环境-登录授权 (opens new window)，启用“匿名登录”   进入环境-安全配">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/%E8%85%BE%E8%AE%AF%E4%BA%911.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/2%60OWS2%60WI%7BZX7121F46$2_P.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/FA3UO81L7%5BVFLYSMO$5CNZ3.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/UYS%608[3XHP2WB909HN%YRTV.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/tookk.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/jiuzhe.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/miyao.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/asfafs.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/qsafasfasf.png">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/wendang.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/awfasfasfgas.jpg">
 <meta property="article:published_time" content="2021-01-17T23:48:58.000Z">
 <meta property="article:modified_time" content="2021-01-18T01:01:20.683Z">
 <meta property="article:author" content="Daibi_mua">
@@ -31,78 +13,162 @@
 <meta property="article:tag" content="Twikoo">
 <meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/%E8%85%BE%E8%AE%AF%E4%BA%911.png">
-  
-    <link rel="alternate" href="/atom.xml" title="呆逼の博客" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/awfasfasfgas.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog.keepdai.cn/Twikoo"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">呆逼の博客</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://blog.keepdai.cn"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-Twikoo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Twikoo.html" class="article-date">
-  <time datetime="2021-01-17T23:48:58.000Z" itemprop="datePublished">2021-01-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      记一次接入Twikoo评论系统所遇到的问题
-    </h1>
-  
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>在Butterfly3.3版本下支持了Twikoo评论。本博客在未来均会采用这个评论。它支持邮件提醒、微信提醒等。可以说是目前最好的评论系统，并且免费。</p>
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-01-18 09:01:20'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="呆逼の博客" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/null" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div></div></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/awfasfasfgas.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">呆逼の博客</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">记一次接入Twikoo评论系统所遇到的问题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-17T23:48:58.000Z" title="发表于 2021-01-18 07:48:58">2021-01-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-18T01:01:20.683Z" title="更新于 2021-01-18 09:01:20">2021-01-18</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>在Butterfly3.3版本下支持了Twikoo评论。本博客在未来均会采用这个评论。它支持邮件提醒、微信提醒等。可以说是目前最好的评论系统，并且免费。</p>
 <p>官方文档：<a target="_blank" rel="noopener" href="https://twikoo.js.org/">点我前往</a></p>
 <h2 id="浏览器支持"><a href="#浏览器支持" class="headerlink" title="浏览器支持"></a>浏览器支持</h2><blockquote>
 <p>市面主流游览器均支持,除了ie</p>
@@ -162,138 +228,4 @@
 <h3 id="进阶设定"><a href="#进阶设定" class="headerlink" title="进阶设定"></a>进阶设定</h3><h4 id="添加版本号（强烈建议）"><a href="#添加版本号（强烈建议）" class="headerlink" title="添加版本号（强烈建议）"></a>添加版本号（强烈建议）</h4><p>添加版本号为张洪大佬的建议,原话:”在butterfly的3.3版本中Twikoo引入的js没有指定版本号，云开发版本和js版本不同的情况下可能会造成问题。<strong>大多数普通用户配置成功后可能不会去追更twikoo的版本，所以添加版本号是一个非常好的习惯</strong>“</p>
 <p>进入<a target="_blank" rel="noopener" href="https://twikoo.js.org/quick-start.html#%E9%80%9A%E8%BF%87-cdn-%E5%BC%95%E5%85%A5">通过CDN引入</a>查看代码，将文档中带版本号的js链接粘贴到配置文件中。<img src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/qsafasfasf.png"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/wendang.png"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://blog.keepdai.cn/Twikoo.html" data-id="ckk1wf8yw00014oak0rafhf94" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Twikoo/" rel="tag">Twikoo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%84%E8%AE%BA/" rel="tag">评论</a></li></ul>
-
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-  
-    <a href="/xiaohua.html" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">一些你看了肯定会笑的笑话，缓解你的不开心</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/" rel="tag">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mysql/" rel="tag">Mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PHP/" rel="tag">PHP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Twikoo/" rel="tag">Twikoo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bug/" rel="tag">bug</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/utf8/" rel="tag">utf8</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/utf8mb4/" rel="tag">utf8mb4</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%87%B9%E7%89%B9%E6%9B%BC/" rel="tag">凹特曼</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%80%E5%BF%83/" rel="tag">开心</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6/" rel="tag">插件</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%A1%E5%9B%AD%E6%AC%BA%E5%87%8C/" rel="tag">校园欺凌</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/" rel="tag">游览器</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AC%91%E8%AF%9D/" rel="tag">笑话</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%84%91%E6%B4%9E/" rel="tag">脑洞</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%84%E8%AE%BA/" rel="tag">评论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9D%92%E5%B0%91%E5%B9%B4/" rel="tag">青少年</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Mysql/" style="font-size: 10px;">Mysql</a> <a href="/tags/PHP/" style="font-size: 10px;">PHP</a> <a href="/tags/Twikoo/" style="font-size: 10px;">Twikoo</a> <a href="/tags/bug/" style="font-size: 10px;">bug</a> <a href="/tags/utf8/" style="font-size: 10px;">utf8</a> <a href="/tags/utf8mb4/" style="font-size: 10px;">utf8mb4</a> <a href="/tags/%E5%87%B9%E7%89%B9%E6%9B%BC/" style="font-size: 10px;">凹特曼</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 10px;">工具</a> <a href="/tags/%E5%BC%80%E5%BF%83/" style="font-size: 10px;">开心</a> <a href="/tags/%E6%8F%92%E4%BB%B6/" style="font-size: 10px;">插件</a> <a href="/tags/%E6%A0%A1%E5%9B%AD%E6%AC%BA%E5%87%8C/" style="font-size: 10px;">校园欺凌</a> <a href="/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/" style="font-size: 10px;">游览器</a> <a href="/tags/%E7%AC%91%E8%AF%9D/" style="font-size: 10px;">笑话</a> <a href="/tags/%E8%84%91%E6%B4%9E/" style="font-size: 10px;">脑洞</a> <a href="/tags/%E8%AF%84%E8%AE%BA/" style="font-size: 10px;">评论</a> <a href="/tags/%E9%9D%92%E5%B0%91%E5%B9%B4/" style="font-size: 10px;">青少年</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">一月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">十二月 2020</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/Twikoo.html">记一次接入Twikoo评论系统所遇到的问题</a>
-          </li>
-        
-          <li>
-            <a href="/xiaohua.html">一些你看了肯定会笑的笑话，缓解你的不开心</a>
-          </li>
-        
-          <li>
-            <a href="/mysql.html">将myqsl的utf8转为utf8mb4</a>
-          </li>
-        
-          <li>
-            <a href="/qiling.html">关于校园欺凌我的一些看法与建议</a>
-          </li>
-        
-          <li>
-            <a href="/wep.html">浏览器优化及美化</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2021 Daibi_mua<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/01/assets/haru01.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
-</html>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Daibi_mua</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.keepdai.cn/Twikoo.html">https://blog.keepdai.cn/Twikoo.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.keepdai.cn" target="_blank">呆逼の博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AF%84%E8%AE%BA/">评论</a><a class="post-meta__tags" href="/tags/Twikoo/">Twikoo</a><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/awfasfasfgas.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/xiaohua.html"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/xiaohua%20(1).jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">一些你看了肯定会笑的笑话，缓解你的不开心</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/null" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Daibi_mua</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">18</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81"><span class="toc-number">1.</span> <span class="toc-text">浏览器支持</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E5%87%BD%E6%95%B0%E9%83%A8%E7%BD%B2"><span class="toc-number">2.</span> <span class="toc-text">云函数部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2"><span class="toc-number">2.1.</span> <span class="toc-text">一键部署</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%89%8B%E5%8A%A8%E9%83%A8%E7%BD%B2"><span class="toc-number">2.2.</span> <span class="toc-text">手动部署</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E9%A2%98%E9%83%A8%E7%BD%B2"><span class="toc-number">2.3.</span> <span class="toc-text">主题部署</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%80%E5%90%AF%E7%AE%A1%E7%90%86%E9%9D%A2%E6%9D%BF"><span class="toc-number">2.4.</span> <span class="toc-text">开启管理面板</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E8%AE%BE%E5%AE%9A"><span class="toc-number">2.5.</span> <span class="toc-text">进阶设定</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9C%AC%E5%8F%B7%EF%BC%88%E5%BC%BA%E7%83%88%E5%BB%BA%E8%AE%AE%EF%BC%89"><span class="toc-number">2.5.1.</span> <span class="toc-text">添加版本号（强烈建议）</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/Twikoo.html" title="记一次接入Twikoo评论系统所遇到的问题"><img src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn@main/awfasfasfgas.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="记一次接入Twikoo评论系统所遇到的问题"/></a><div class="content"><a class="title" href="/Twikoo.html" title="记一次接入Twikoo评论系统所遇到的问题">记一次接入Twikoo评论系统所遇到的问题</a><time datetime="2021-01-17T23:48:58.000Z" title="发表于 2021-01-18 07:48:58">2021-01-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/xiaohua.html" title="一些你看了肯定会笑的笑话，缓解你的不开心"><img src="https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/xiaohua%20(1).jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="一些你看了肯定会笑的笑话，缓解你的不开心"/></a><div class="content"><a class="title" href="/xiaohua.html" title="一些你看了肯定会笑的笑话，缓解你的不开心">一些你看了肯定会笑的笑话，缓解你的不开心</a><time datetime="2021-01-13T23:52:11.000Z" title="发表于 2021-01-14 07:52:11">2021-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/mysql.html" title="将myqsl的utf8转为utf8mb4"><img src="https://tva4.sinaimg.cn/mw1024/0084aYsLly1gbtqctsd1xj318g0m87jx.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="将myqsl的utf8转为utf8mb4"/></a><div class="content"><a class="title" href="/mysql.html" title="将myqsl的utf8转为utf8mb4">将myqsl的utf8转为utf8mb4</a><time datetime="2021-01-13T01:46:40.000Z" title="发表于 2021-01-13 09:46:40">2021-01-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/qiling.html" title="关于校园欺凌我的一些看法与建议"><img src="https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/wallhaven-v9m2r8.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于校园欺凌我的一些看法与建议"/></a><div class="content"><a class="title" href="/qiling.html" title="关于校园欺凌我的一些看法与建议">关于校园欺凌我的一些看法与建议</a><time datetime="2021-01-10T06:32:05.000Z" title="发表于 2021-01-10 14:32:05">2021-01-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/wep.html" title="浏览器优化及美化"><img src="https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/d26c9f3ac866497480dea201b8e51973fdde5da5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="浏览器优化及美化"/></a><div class="content"><a class="title" href="/wep.html" title="浏览器优化及美化">浏览器优化及美化</a><time datetime="2021-01-02T04:50:19.000Z" title="发表于 2021-01-02 12:50:19">2021-01-02</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Daibi_mua</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/01/assets/haru01.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body></html>
