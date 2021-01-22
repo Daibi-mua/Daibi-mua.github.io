@@ -3711,20 +3711,6 @@ _:future,
   margin: 2rem 0 !important;
   background: #000;
 }
-@media screen and (max-width: 768px) {
-  .prev-post,
-  .next-post {
-    width: 100% !important;
-  }
-}
-@media screen and (max-width: $sm) {
-  #web_bg {
-    background: url("https://cdn.jsdelivr.net/gh/mydracula/image@master/20210107/942c3f068cab3c2347ca21f53387c0f6.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-  }
-}
 #article-container {
   word-wrap: break-word;
   overflow-wrap: break-word;
