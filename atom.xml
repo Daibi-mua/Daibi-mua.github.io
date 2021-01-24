@@ -6,7 +6,7 @@
   <link href="https://blog.keepdai.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.keepdai.cn/"/>
-  <updated>2021-01-20T08:11:12.515Z</updated>
+  <updated>2021-01-24T05:42:27.366Z</updated>
   <id>https://blog.keepdai.cn/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用GitHub+jsdelivr搭建一个图床</title>
+    <link href="https://blog.keepdai.cn/jsdelivr.html"/>
+    <id>https://blog.keepdai.cn/jsdelivr.html</id>
+    <published>2021-01-24T04:48:57.000Z</published>
+    <updated>2021-01-24T05:42:27.366Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="图床的选择"><a href="#图床的选择" class="headerlink" title="图床的选择:"></a>图床的选择:</h1><ol><li>微博图床:以前我是经常用的,后来开启防盗链就开始麻烦起来了,所以果断放弃</li><li>SM.MS:稳定,经营了四年多了,但是是国外服务器,速度堪忧</li><li>大厂储存服务:例如七牛云、又拍云、腾讯云COS、阿里云OSS等，操作繁琐，又是实名认证又是域名备案的，麻烦，而且还要花钱（有钱又不怕麻烦的当我没说）</li><li>GitHub图床:免费，但是国内访问速度慢（不过没关系，利用 <code>jsDelivr</code> 提供的免费的 CDN 加速 速度足够了）</li></ol><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h2 id="新建-GitHub-仓库"><a href="#新建-GitHub-仓库" class="headerlink" title="新建 GitHub 仓库"></a>新建 GitHub 仓库<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@424fd2eb0c23da9b0618116308bf4088b55ef21d/2021/01/24/d6776c6f890e614598c8c67d677a6a13.png"></h2><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@29ae88b26443b7c1f7403ff2c8c1a5b4f94da79c/2021/01/24/ed784289cf94c93bae85e996f6630cbe.png"></p><h2 id="生成一个-Token"><a href="#生成一个-Token" class="headerlink" title="生成一个 Token"></a>生成一个 Token</h2><ul><li><p>点击用户头像 -&gt; 选择 设置<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@0e39addd9169fc762ada516c2790bc5725a7df9d/2021/01/24/d0d3822be5af7e9851a6461dd95fc4db.png"></p></li><li><p>点击开发者设置<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@c7e4542abc39b700cf6638e92dd7cb72d220b29d/2021/01/24/a0912af7c97647331fe9b25677ac7367.png" style="zoom:50%;" /></p></li><li><p>点击Personal access tokens<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@7cb21955b032aee0e574638c210c5ff12561d931/2021/01/24/0cad3ab9effa2738a4e99b6b8e8de966.png"></p></li><li><p>点击Generate new token<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@c88b9dc8c04c256dd2f8ab4a0ac4a898b6d20c55/2021/01/24/9f84a1744ad9d49f8b91c7105d55ae4b.png"></p></li><li><p>填写Token描述，勾选repo然后点击Generate token生成一个Token</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@64b1db98bc6ccba37d0cbe71f8d0128f52219e30/2021/01/24/8ead9e9590df7c8801b75014d83018fc.png"></p></li><li><p>获取 Token密钥</p></li></ul><blockquote><p>注意这个 Token 只会显示一次，自己先保存下来，或者等后面配置好 PicGo 后再关闭此网页</p></blockquote><h2 id="配置-PicGo-并使用-jsdelivr-作为-CDN-加速"><a href="#配置-PicGo-并使用-jsdelivr-作为-CDN-加速" class="headerlink" title="配置 PicGo 并使用 jsdelivr 作为 CDN 加速"></a>配置 PicGo 并使用 jsdelivr 作为 CDN 加速</h2><blockquote><p>前往下载 <a href="https://links.jianshu.com/go?to=https://github.com/Molunerfinn/picgo/releases">PicGo</a>（<a href="https://links.jianshu.com/go?to=https://github.com/Molunerfinn/picgo/releases">点击下载</a>），安装好后开始配置图床</p></blockquote><p>设定仓库名：按照用户名/图床仓库名 的格式填写</p><p>设定分支名：main</p><p>设定 Token：粘贴之前生成的Token</p><p>指定存储路径：填写想要储存的路径，如 img/，这样就会在仓库下创建一个名为img的文件夹，图片将会储存在此文件夹中</p><p>设定自定义域名：它的的作用是，在图片上传后，PicGo 会按照自定义域名+上传的图片名的方式生成访问链接，放到粘贴板上，因为我们要使用 jsDelivr 加速访问，所以可以设置为<a href="https://cdn.jsdelivr.net/gh/%E7%94%A8%E6%88%B7%E5%90%8D/%E5%9B%BE%E5%BA%8A%E4%BB%93%E5%BA%93%E5%90%8D">https://cdn.jsdelivr.net/gh/用户名/图床仓库名</a></p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@bf4e584c882f501b6e8bb3ae55b5a17df9b73d33/2021/01/24/1ce5e15083a20654d8d694f58ffa2fe6.png"></p><h2 id="使用第三方图床使用GitHub图床"><a href="#使用第三方图床使用GitHub图床" class="headerlink" title="使用第三方图床使用GitHub图床"></a>使用第三方图床使用GitHub图床</h2><p>因为GitHub服务器在国外,国内经常抽风,导致上传失败,这时候就可以自己白嫖一个国外服务器然后搭建一个api通过这个api上传到GitHub,<a href="https://github.com/yumusb/autoPicCdn">个人版本</a>;当然如果你嫌烦,可以用<a href="https://chuibi.cn/">吹逼图床</a></p><ul><li><p>在picGo下载插件<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@d285a3836b5aee2038800f37062378ff61991e13/2021/01/24/89fdd9c4b649e26a5a2cd90cc673ae92.png"></p></li><li><p>然后登录使用GitHub登录吹逼图床,然后再次点击用户图标进行设置</p></li></ul><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@3be766c8839bcf069b22725aabbedf9aafbdffed/2021/01/24/1d2f4f4c715c41d103725fa59cc7b133.png"></p><ul><li>然后在主界面复制你的接口[注意不要泄露这个接口,不然他人就可以使用你的接口上传图片]</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@5efcd17edd183aadef21681265ac0866799ae177/2021/01/24/a8a71bcca4cd13fbb4b6e7fb7ecacf66.png"></p><ul><li>回到picGo进行配置</li></ul><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@7f388e99a1034a766166b9f872d016263d6476c9/2021/01/24/857847e0e6ee0e1385bc1abdf5eccf3f.png" alt="image-20210124132702587"></p><p>接下来你就可以愉快的使用GitHub+jsdelivr当作图库啦</p><blockquote><p>值得注意的是,理论上讲GitHub仓库大小是100g,但到了1g就会有人工审核,而使用jsdelivr加速的文件到达50m[也就是仓库大小]仓库里的资源就有可能失效,仓库理论上是无限建的,到了50m可以新建一个新的来达到白嫖的效果</p></blockquote><p>此外 PicGo还有相册功能，可以对已上传的图片进行删除，修改链接等快捷操作,PicGo还可以生成不同格式的链接、支持批量上传、快捷键上传、自定义链接格式、上传前重命名等，更多功能自己去探索吧！</p><p>完成之后就可以畅快书写，上传直接快捷键完成，复制粘贴，再也不用手动去拖动图片上传了，更过功能尽情去体验吧！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;图床的选择&quot;&gt;&lt;a href=&quot;#图床的选择&quot; class=&quot;headerlink&quot; title=&quot;图床的选择:&quot;&gt;&lt;/a&gt;图床的选择:&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;微博图床:以前我是经常用的,后来开启防盗链就开始麻烦起来了,所以果断放弃&lt;/li&gt;
+&lt;li&gt;SM.M</summary>
+      
+    
+    
+    
+    
+    <category term="白嫖" scheme="https://blog.keepdai.cn/tags/%E7%99%BD%E5%AB%96/"/>
+    
+    <category term="图床" scheme="https://blog.keepdai.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="GitHub" scheme="https://blog.keepdai.cn/tags/GitHub/"/>
+    
+    <category term="jsdelivr" scheme="https://blog.keepdai.cn/tags/jsdelivr/"/>
+    
+    <category term="picGO" scheme="https://blog.keepdai.cn/tags/picGO/"/>
+    
+    <category term="吹逼图床" scheme="https://blog.keepdai.cn/tags/%E5%90%B9%E9%80%BC%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>给你的hexo博客接入评论系统</title>
