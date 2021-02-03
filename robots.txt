@@ -1,0 +1,15 @@
+# 允许所有用户代理的浏览器爬虫进行访问（爬取数据）
+User-agent: *
+
+# 不允许访问的内容
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js
+Disallow: /*.css
+
+Sitemap: https://daibi-mua.github.io/sitemap.xml
+Sitemap: https://daibi-mua.github.io/baidusitemap.xml
+Sitemap:https://blog.keepdai.cn/sitemap.xml
+Sitemap:https://blog.keepdai.cn/baidusitemap.xml
