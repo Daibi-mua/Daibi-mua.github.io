@@ -1,5 +1,4 @@
-requests_url = 'https://hexo-circle-of-friends-api-zeta.vercel.app/api';
-const friend_link_circle = new Vue({
+var friend_link_circle = new Vue({
     el: '#friend_link_circle',
     data: {
         datalist: [],
@@ -15,7 +14,6 @@ const friend_link_circle = new Vue({
         error:0,
         unique_live_link:0,
         opentype:'_blank'  //'_blank'打开新标签,'_self'本窗口打开
-
     },
     methods:{
         unique (arr) {
