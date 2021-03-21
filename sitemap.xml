@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.keepdai.cn/xiaohua.html</loc>
+    
+    <lastmod>2021-03-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.keepdai.cn/youhua.html</loc>
     
     <lastmod>2021-03-21</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://blog.keepdai.cn/bb/index.html</loc>
-    
-    <lastmod>2021-03-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/xiaohua.html</loc>
     
     <lastmod>2021-03-13</lastmod>
     
@@ -228,41 +228,6 @@
   </url>
   
   <url>
-    <loc>https://blog.keepdai.cn/tags/%E7%99%BD%E5%AB%96/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/jsdelivr/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/picGO/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E5%90%B9%E9%80%BC%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2021-03-21</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.keepdai.cn/tags/Windows/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
@@ -292,6 +257,41 @@
   
   <url>
     <loc>https://blog.keepdai.cn/tags/utf8mb4/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E7%99%BD%E5%AB%96/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/jsdelivr/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/picGO/</loc>
+    <lastmod>2021-03-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E5%90%B9%E9%80%BC%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2021-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
