@@ -227,11 +227,11 @@
     
     
     
-    <category term="GitHub" scheme="https://blog.keepdai.cn/tags/GitHub/"/>
-    
     <category term="白嫖" scheme="https://blog.keepdai.cn/tags/%E7%99%BD%E5%AB%96/"/>
     
     <category term="图床" scheme="https://blog.keepdai.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="GitHub" scheme="https://blog.keepdai.cn/tags/GitHub/"/>
     
     <category term="jsdelivr" scheme="https://blog.keepdai.cn/tags/jsdelivr/"/>
     
@@ -316,13 +316,13 @@
     
     
     
-    <category term="bug" scheme="https://blog.keepdai.cn/tags/bug/"/>
-    
     <category term="Mysql" scheme="https://blog.keepdai.cn/tags/Mysql/"/>
     
     <category term="utf8" scheme="https://blog.keepdai.cn/tags/utf8/"/>
     
     <category term="utf8mb4" scheme="https://blog.keepdai.cn/tags/utf8mb4/"/>
+    
+    <category term="bug" scheme="https://blog.keepdai.cn/tags/bug/"/>
     
   </entry>
   
@@ -371,11 +371,11 @@
     
     
     
-    <category term="插件" scheme="https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
-    
     <category term="工具" scheme="https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="游览器" scheme="https://blog.keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="插件" scheme="https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
