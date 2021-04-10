@@ -91,11 +91,11 @@
     
     
     
+    <category term="博客" scheme="https://blog.keepdai.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
     <category term="css" scheme="https://blog.keepdai.cn/tags/css/"/>
     
     <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="博客" scheme="https://blog.keepdai.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="jsdelivr" scheme="https://blog.keepdai.cn/tags/jsdelivr/"/>
     
@@ -124,11 +124,11 @@
     
     
     
+    <category term="Twikoo" scheme="https://blog.keepdai.cn/tags/Twikoo/"/>
+    
     <category term="css" scheme="https://blog.keepdai.cn/tags/css/"/>
     
     <category term="美化" scheme="https://blog.keepdai.cn/tags/%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="Twikoo" scheme="https://blog.keepdai.cn/tags/Twikoo/"/>
     
     <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
@@ -261,9 +261,9 @@
     
     
     
-    <category term="Twikoo" scheme="https://blog.keepdai.cn/tags/Twikoo/"/>
-    
     <category term="评论" scheme="https://blog.keepdai.cn/tags/%E8%AF%84%E8%AE%BA/"/>
+    
+    <category term="Twikoo" scheme="https://blog.keepdai.cn/tags/Twikoo/"/>
     
     <category term="博客" scheme="https://blog.keepdai.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
@@ -371,11 +371,11 @@
     
     
     
-    <category term="插件" scheme="https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
-    
     <category term="工具" scheme="https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
     <category term="游览器" scheme="https://blog.keepdai.cn/tags/%E6%B8%B8%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="插件" scheme="https://blog.keepdai.cn/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
