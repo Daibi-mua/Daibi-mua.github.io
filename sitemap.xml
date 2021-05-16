@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.keepdai.cn/fcircle/index.html</loc>
+    
+    <lastmod>2021-05-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.keepdai.cn/youhua.html</loc>
     
     <lastmod>2021-05-15</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://blog.keepdai.cn/link/index.html</loc>
     
     <lastmod>2021-02-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/fcircle/index.html</loc>
-    
-    <lastmod>2021-02-18</lastmod>
     
   </url>
   
@@ -249,6 +249,20 @@
   </url>
   
   <url>
+    <loc>https://blog.keepdai.cn/tags/%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2021-05-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.keepdai.cn/tags/%E6%B1%82%E5%90%8C%E5%AD%98%E5%BC%82/</loc>
+    <lastmod>2021-05-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.keepdai.cn/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2021-05-16</lastmod>
     <changefreq>daily</changefreq>
@@ -313,20 +327,6 @@
   
   <url>
     <loc>https://blog.keepdai.cn/tags/%E6%A0%A1%E5%9B%AD%E6%AC%BA%E5%87%8C/</loc>
-    <lastmod>2021-05-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2021-05-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.keepdai.cn/tags/%E6%B1%82%E5%90%8C%E5%AD%98%E5%BC%82/</loc>
     <lastmod>2021-05-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
