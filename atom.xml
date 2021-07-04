@@ -34,9 +34,9 @@
     
     
     
-    <category term="软件分享" scheme="https://blog.keepdai.cn/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
-    
     <category term="白嫖" scheme="https://blog.keepdai.cn/tags/%E7%99%BD%E5%AB%96/"/>
+    
+    <category term="软件分享" scheme="https://blog.keepdai.cn/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
     
     <category term="工具" scheme="https://blog.keepdai.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
@@ -87,11 +87,11 @@
     
     
     
-    <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="GitHub" scheme="https://blog.keepdai.cn/tags/GitHub/"/>
     
     <category term="bug" scheme="https://blog.keepdai.cn/tags/bug/"/>
+    
+    <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -119,11 +119,11 @@
     
     <category term="博客" scheme="https://blog.keepdai.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="css" scheme="https://blog.keepdai.cn/tags/css/"/>
+    <category term="jsdelivr" scheme="https://blog.keepdai.cn/tags/jsdelivr/"/>
     
     <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="jsdelivr" scheme="https://blog.keepdai.cn/tags/jsdelivr/"/>
+    <category term="css" scheme="https://blog.keepdai.cn/tags/css/"/>
     
     <category term="网站优化" scheme="https://blog.keepdai.cn/tags/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/"/>
     
@@ -152,11 +152,11 @@
     
     <category term="Twikoo" scheme="https://blog.keepdai.cn/tags/Twikoo/"/>
     
+    <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="css" scheme="https://blog.keepdai.cn/tags/css/"/>
     
     <category term="美化" scheme="https://blog.keepdai.cn/tags/%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -203,11 +203,11 @@
     
     
     
-    <category term="美化" scheme="https://blog.keepdai.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    <category term="软件分享" scheme="https://blog.keepdai.cn/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
     
     <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="软件分享" scheme="https://blog.keepdai.cn/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    <category term="美化" scheme="https://blog.keepdai.cn/tags/%E7%BE%8E%E5%8C%96/"/>
     
     <category term="Windows" scheme="https://blog.keepdai.cn/tags/Windows/"/>
     
@@ -253,11 +253,11 @@
     
     
     
-    <category term="GitHub" scheme="https://blog.keepdai.cn/tags/GitHub/"/>
-    
     <category term="白嫖" scheme="https://blog.keepdai.cn/tags/%E7%99%BD%E5%AB%96/"/>
     
     <category term="图床" scheme="https://blog.keepdai.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="GitHub" scheme="https://blog.keepdai.cn/tags/GitHub/"/>
     
     <category term="jsdelivr" scheme="https://blog.keepdai.cn/tags/jsdelivr/"/>
     
