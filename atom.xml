@@ -6,7 +6,7 @@
   <link href="https://blog.keepdai.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.keepdai.cn/"/>
-  <updated>2021-09-19T09:17:05.909Z</updated>
+  <updated>2021-09-19T09:17:46.213Z</updated>
   <id>https://blog.keepdai.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.keepdai.cn/root.html"/>
     <id>https://blog.keepdai.cn/root.html</id>
     <published>2021-09-18T23:48:58.000Z</published>
-    <updated>2021-09-19T09:17:05.909Z</updated>
+    <updated>2021-09-19T09:17:46.213Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>root，类似于<a href="https://baike.baidu.com/item/Windows/165458">Windows</a>系统中的Administrator，root是<a href="https://baike.baidu.com/item/Linux%E7%B3%BB%E7%BB%9F/1732935">Linux系统</a>中的<a href="https://baike.baidu.com/item/%E8%B6%85%E7%BA%A7%E7%AE%A1%E7%90%86%E5%91%98/3602694">超级管理员</a>用户帐户，该帐户拥有整个系统的最高权限，可方便地对于系统的部件进行删除或更改。</p></blockquote><ul><li>本教程正常情况无需双清或重装系统，可以进行OTA升级。升级后重复教程即可重新root。<br>但还是要记得备份数据后进行以下操作。<br>注：刷机有风险，玩机需谨慎。 操作不当所造成后果，与我无瓜</li></ul><h1 id="开始教程"><a href="#开始教程" class="headerlink" title="开始教程"></a>开始教程</h1><h2 id="解锁手机bl锁"><a href="#解锁手机bl锁" class="headerlink" title="解锁手机bl锁"></a>解锁手机bl锁</h2><p>大部分手机官方为了保证手机的安全，为手机设置了BL锁，在BL锁未解的情况下，用户是不能自行刷机或获取ROOT权限的，所以要想root就必须先解bl锁。</p><blockquote><p>华为和ov貌似不可以，具体自己手机是哪个牌子的可以去查一查是否支持解bl锁，下文以小米手机为例</p></blockquote><p>解锁bl锁之前要先把自己的小米账号跟手机绑定上</p><p>之后直接百度搜索小米解锁bl锁<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919163322968.png" alt="image-20210919163322968"></p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919163436390.png" alt="image-20210919163436390"></p><p>下载完之后解压大概是得到这样的目录<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919163509103.png" alt="image-20210919163509103"></p><p>打开miflash_unlock.exe并登录自己的小米账号进行解锁，解锁方式为在关机下音量下键与电源键一起按，当你看到这幅画面就证明你成功进入了Bootloader，之后就一路下一步就好了。<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919163928669.png" alt="image-20210919163928669"></p><blockquote><p>如果无法识别手机请打开手机的开发者选项并打开usb调试，miui的开发者选项是点击我的设备→全部参数→连续按miui版本就打开了开发者选项</p></blockquote><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919164329495.png" alt="image-20210919164329495"></p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919164352672.png" alt="image-20210919164352672"></p><p>ps:小米手机解bl锁是需要等七天的，七天之后才可以解锁</p><p><strong>注意一定要备份，一定要备份，一定要备份！！！</strong></p><h2 id="刷入第三方rec"><a href="#刷入第三方rec" class="headerlink" title="刷入第三方rec"></a>刷入第三方rec</h2><p>REC全程Recovery,通俗一点讲就是手机刷机软件，手机开机时按住电源键和音量＋建就可以进入到rec</p><p>rec分为官方rec和第三方rec这个就是官方rec，啥玩意也没有，有的有很鸡肋，所以这里我们可以刷入第三方rec。</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919164929450.png" alt="image-20210919164929450"></p><p>第三方rec功能十分之多，可以直接一键root,这里推荐TWRP。<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919165107425.png" alt="TWRP"></p><h2 id="刷入第三方rec-1"><a href="#刷入第三方rec-1" class="headerlink" title="刷入第三方rec"></a>刷入第三方rec</h2><p>首先要做的就是找到你手机对应的第三方rec,集合文件的下载地址： 天翼云盘 <a href="http://t.cn/A6ADTtwL"><em>O</em>网页链接</a>（访问码：vv8a）<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919165657152.png" alt="image-20210919165657152"></p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919165806784.png" alt="image-20210919165806784"></p><p>自行找到与自己手机对应的rec下载</p><p>下载完成后解压直接运行twrp一键刷入工具bat<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919165908628.png"></p><p>部分机型可能没有这个文件，别慌你只需要找到一个有这个文件的，然后右键记事本打开它，把我画上的这个镜像文件名字改成你自己手机对应的rec里面带的镜像文件，改完之后保存把这个改完之后的bat文件放到你手机对应rec的文件夹里运行就可以了，记得运行时手机要处在Bootloader模式。<img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919170034396.png"></p><h2 id="root系统"><a href="#root系统" class="headerlink" title="root系统"></a>root系统</h2><p>此时你的手机就会重启进入TWRP，这个时候点击高级→关闭AVB2.0校验</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919170427197.png" alt="image-20210919170427197"></p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/cdn3@main/image-20210919170511077.png" alt="image-20210919170511077"></p><p>之后还是点击高级→root系统，这里会自动安装面具，之后手机会自动重启，手机上会多一个面具</p><p>这个时候你的手机就已经root成功了，你可以选择很多框架比如xp exp lsp框架，反正root好处多多，还有太多功能等待发掘，如果有时间可能会出第二期教程，教一下怎么刷框架和推荐一些模块，好了就这样，收工！</p>]]></content>
     
@@ -228,35 +228,6 @@
     <category term="互联网环境" scheme="https://blog.keepdai.cn/tags/%E4%BA%92%E8%81%94%E7%BD%91%E7%8E%AF%E5%A2%83/"/>
     
     <category term="求同存异" scheme="https://blog.keepdai.cn/tags/%E6%B1%82%E5%90%8C%E5%AD%98%E5%BC%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows美化从入门到放弃</title>
-    <link href="https://blog.keepdai.cn/meihua.html"/>
-    <id>https://blog.keepdai.cn/meihua.html</id>
-    <published>2021-02-04T10:05:08.000Z</published>
-    <updated>2021-02-04T11:16:11.025Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>玩桌面美化需要一定的动手能力和审美能力,并且每个人的审美不同,有人喜欢原生,有人喜欢花里胡哨,这种东西求同存异就好,仅供参考</p><h1 id="美化效果展示"><a href="#美化效果展示" class="headerlink" title="美化效果展示"></a>美化效果展示</h1><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic4.58cdn.com.cn/nowater/webim/big/n_v28f7afc5f67024188bef7d25bece32471.png"></p><h1 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h1><h2 id="桌面"><a href="#桌面" class="headerlink" title="桌面"></a>桌面</h2><blockquote><p>先说说我用的软件,作用会在之后介绍</p></blockquote><ol><li>Wallpaper Engine</li><li>Rainmeter</li><li>TranslucentTB</li><li>Tile Genie</li><li>Dism++</li></ol><p><strong>Wallpaper Engine</strong>大名鼎鼎的壁纸软件,在steam售价29元,里面的壁纸那可真是数不胜数用了WallpaperEngine这个软件之后我才知道，原来桌面还能这么玩</p><p>不论是从网页导入，直接把你喜欢的网站设为桌面，还是用本地的html文件设为桌面进行一些简单的互动，又或者是把可执行程序exe设为桌面等等，这些都是我以前没想过的。</p><p>桌面不再是静态图像或者视频这种不可交互的，而是可以进行互动的，比如对你的鼠标位置、鼠标点击或者是系统的声音输出做出响应的可交互式的界面。这也正是我喜欢这款软件的原因。</p><p>还有就是不要打开18🈲,不要打开18🈲,不要打开18🈲,重要的事情说三遍,不然你会弹尽粮绝。</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic3.58cdn.com.cn/nowater/webim/big/n_v2ddbb74741ca04c7f8c7abdd085756b60.png"></p><p><strong>Rainmeter</strong>我桌面上的dock栏以及时间均为Rainmeter实现,2.37MB小内存，不占运行空间且它有许多插件可以使用，通过插件的安装来得到你想要的效果绝对是每一个美化爱好者必备的软件,该工具为你的桌面而生，它可以让你的桌面变得更加精致，堪称是一个桌面美化神器，有了它，你可以在系统桌面上显示系统的内存、网络、天气、新闻等信息，支持皮肤加载功能，让你随心所欲的搭配属于自己的个性桌面，是你使用Windows的必备工具之一。这里也分享一下我的几个插件,点我前往👉<a href="https://cloud.189.cn/t/ERNjuyFVr6Zf">🔗</a>。</p><p><strong>TranslucentTB</strong>一个轻量级（使用几MB内存，几乎没有CPU）的实用程序，它使Windows任务栏在Windows 10上半透明/透明。可以在微软商店下载汉化版本,记得右键设置开机自启</p><p><strong>软件居中</strong>首先你要右键任务栏取消任务栏锁定</p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic8.58cdn.com.cn/nowater/webim/big/n_v2ec2911e15f7a472e9b56478bebc95ec3.png" style="zoom:80%;" /><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic2.58cdn.com.cn/nowater/webim/big/n_v2f25131e4fc444b0b864e07bbb9ee309d.png"></p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic4.58cdn.com.cn/nowater/webim/big/n_v294264b7303424ae8af20c52c6a67bdf2.png"></p><p>之后再次右键任务栏,选择锁定任务栏</p><p><strong>时间精确到秒</strong> hhhh没想到吧,我会用Dism++美化,是的,Dism++不仅仅是一个清理垃圾的软件</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic3.58cdn.com.cn/nowater/webim/big/n_v2f7fb3c0487d94e9ba943e39ec882a8d9.png"></p><p>没错,它还有很多优化选项,比如精确到秒 你还可以干更多的事情比如隐藏软件小盾牌,隐藏快捷方式的箭头图标,它还有很多选项等你来发现[dism++永远的神!]</p><p><strong>软件图标</strong>,那这个时候肯定就会有小可爱问我了,啊~呆逼呆逼,那你的软件在哪里,就桌面上这点软件?不够我用啊,欸⑧要着急,这时候就要用到我们的Windows磁铁了,不过乔布斯曾说过微软哪里都好,就是没审美,确实,磁铁也很丑,那就要用到我们的Tile Genie了</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic1.58cdn.com.cn/nowater/webim/big/n_v204d037e4bc4148d0ae120088c6304741.png"></p><p>add images就是添加本地照片通过+-几个按钮调整为自己想要的格式我就不过多介绍了,还可以通过外联引入图片</p><p>那可能还有人会问,啊~呆逼呆逼大帅逼,那还是很丑啊。那这样呢?</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic1.58cdn.com.cn/nowater/webim/big/n_v2962b4ff7227e49e38be0a4b5b4b351ab.png"></p><p>全屏显示磁贴,你只需要点击设置→个性化→开始,然后按照我的设置就好了</p><p><img src= "https://cdn.jsdelivr.net/gh/Daibi-mua/cdn2@main/loading.gif" data-lazy-src="https://pic7.58cdn.com.cn/nowater/webim/big/n_v233d350216ef04c299a5d706554ca5dfe.png"></p><p>呐呐呐,那么到这里美化就结束了,希望我的宝贝,你,可以喜欢 mua❤。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;玩桌面美化需要一定的动手能力和审美能力,并且每个人的审美不同,有人喜欢原生,有人喜欢花里胡哨,这种东西求同存异就好,仅供参考&lt;/p&gt;
-&lt;h1</summary>
-      
-    
-    
-    
-    
-    <category term="美化" scheme="https://blog.keepdai.cn/tags/%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="教程" scheme="https://blog.keepdai.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="软件分享" scheme="https://blog.keepdai.cn/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
-    
-    <category term="Windows" scheme="https://blog.keepdai.cn/tags/Windows/"/>
     
   </entry>
   
